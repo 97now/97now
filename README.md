@@ -1,27 +1,36 @@
-# 김현재의 SAP 공부 기록공간
+<table>
+  <tr>
+    <td width="180" align="center">
+      <img src=<img src="https://github.com/user-attachments/assets/5299bf6f-c61d-4e84-a75b-60f3938ce8a4" width="150" style="border-radius:10px;" />
+ width="150" style="border-radius: 10px;" />
+    </td>
+    <td>
+      <h3>현재 (Backend / SAP ERP Developer)</h3>
+      <p>
+        꾸준함과 이해를 중시하는 개발자입니다.<br/>
+        RPA 경험을 바탕으로 ERP(SAP ABAP) 개발로 확장 중이며,<br/>
+        단순 구현보다 <b>왜 이렇게 동작하는지</b>를 이해하려 노력합니다.
+      </p>
 
-## 1주차
-- 열심히 설치했다. 앞으로 여러가지 실습을 하면서 SAP 개발자로 성장하고 싶다는 생각이 들었다.
+  </tr>
+</table>
 
-## 2주차
-- ABAP 기본 타입을 정리하며 내부 길이 vs 출력 길이, 단위·통화 연동(QUAN/CURR-UNIT/CUKY) 개념을 명확히 했다. TYPE STRUCTURE TABLE로 이어지는 데이터 모델 흐름도 감이 잡혔다. ALV 예제를 통해 필드카탈로그 구성 레이아웃 GRID DISPLAY까지 화면 출력 절차를 실습했고, 작은 오타와 컬럼 매핑 오류를 직접 해결해 보는 경험이 큰 도움이 됐다. 단순 조회를 넘어 리포트 형태로 보여주는 개발의 첫 단계를 밟았다는 점이 좋았다.
+## 📘 SAP ABAP 학습 기록
 
-## 3주차
-- 디버깅을 배우기 시작했는데 아직 익숙하지 않은걸 디버깅 하려니까 이게 뭘 나타내는지도 아직 파악이 잘 안된다. 한 두번 보는거로는 안될 것 같고 이번 추석 연휴에 더 많이 복습해봐야 할 것 같다. 필드, 행, 테이블 구조는 크게 기존에 it 공부를 했던 입장으로서 그렇게 크게 어렵지는 않았다. 강의를 들으며 옛날 스타일의 문법(occuris, with header line) 등을 들었는데 요즘은 어떻게 하는지 더 보고 실습 해보고 싶다. ALV 구조를 좀 구체적으로 배우게 된 것 같은데 이해가 잘 안돼서 자주 쓰이는 만큼 복습이 필요해 보인다.
+> SAP ABAP을 기초부터 실습 위주로 학습하며 정리한 내용입니다.  
+> 각 주차별 요약은 GitHub에, 상세 정리는 Notion에 기록했습니다.
 
-## 4주차
-- 펑션을 배웠다. 개발 언어에서 함수를 만드는 개념이라 익숙했고 SAP 화면에 익숙해지고 사용방법만 익히면 금방 쓸 수 있을 것 같다. 큰 계산식은 SAP 많이 제공하지만 기업별로 계산식이 달라지는 경우가 생길 수 있으니 이런 경우를 대비해서 사용하는 것 같다. 필드 카탈로그도 적용을 해봤는데 색을 입히거나 고정시키고 합계를 나오게하는데 아직 제대로 안된게 있어서 질문해보고 어떻게 적용시키는지 꼭 확인해봐야 겠다.
-
-## 5주차
-- 도움말 관련해서 자세하게 파고들어봤다. SAP의 테이블 구조는 단순히 데이터 저장 공간이 아니라, 데이터 요소(Data Element), 도메인(Domain), 체크 테이블(Check Table), 검색 도움말(Search Help) 등 여러 사전 객체가 유기적으로 연결되어 있다는 걸 배웠다.
-특히 SBOOK처럼 외래키 관계가 많은 테이블은 다른 테이블(SCARR, SPFLI, SFLIGHT, SCUSTOM 등)과 긴밀하게 연결되어 있으며,
-각 필드의 입력 도움말(F4)이 어떤 원리로 동작하는지(체크 테이블 기반 / 고정값 / 데이터타입 / 직접 Search Help 연결)를 실제로 확인할 수 있었습니다.
-또한 도메인과 데이터 요소를 통해 데이터의 의미, 형식, 허용값, 입력 방법이 모두 정의되어 있다는 점에서,
-SAP의 데이터 구조가 매우 체계적으로 설계되어 있음을 이해할 수 있었다.
-
-## 6주차
-- SBOOK과 SFLIGHT의 검색 도움말 구조를 분석하며 Collective Search Help와 Elementary Search Help의 차이를 이해했다. 여러 테이블을 연결해 보여주는 데이터베이스 뷰(View) 개념도 함께 다뤘는데, 단순히 한 테이블이 아니라 관계형 구조로 설계된 점이 인상 깊었다. SELECT-OPTIONS를 활용해 다양한 조회 조건(단일값, 범위, 제외조건 등)을 처리하고, F4IF_INT_TABLE_VALUE_REQUEST 펑션을 이용해 직접 F4 도움말을 구현하는 방법을 배웠다.
-실제로 SCARR와 SPFLI 테이블을 이용해 ALV 보고서를 작성하면서, 선택화면과 검색 도움말이 유기적으로 동작하는 과정을 실습했다. 단순 조회를 넘어 사용자 친화적인 검색 환경을 구현할 수 있다는 점에서 SAP 개발이 단순한 데이터 처리보다 훨씬 정교하다는 걸 느꼈다.
-
-## 7주차
-- LISTBOX, RADIOBUTTON, VRM_SET_VALUES, REUSE_ALV_GRID_DISPLAY 등 지금까지 배운 개념들을 종합적으로 적용해, 선택화면에서 조건을 입력하고 결과를 표 형태로 출력하는 프로그램을 직접 구현했다. AT SELECTION-SCREEN OUTPUT 이벤트를 사용해 리스트박스에 항공사와 노선 데이터를 동적으로 불러왔고, RADIOBUTTON을 통해 전체 예약, 유효 예약, 취소 예약 조건을 나눠 각각의 WHERE 절을 다르게 설정했다. 또한 ALV 필드카탈로그를 세밀하게 구성해 키 필드, 숫자 자리수 제거, HOTSPOT 처리 등 화면 요소를 조정했다. 마지막에는 REUSE_ALV_GRID_DISPLAY를 이용해 데이터가 정렬되고 줄무늬가 적용된 결과 화면을 출력했다. 이번 실습을 통해 SAP 리포트 프로그램이 단순 데이터 조회를 넘어 사용자 입력, 화면 구성, 이벤트 제어까지 결합된 하나의 작은 애플리케이션처럼 동작한다는 점을 느꼈다.
+### Week 02. SAP 시스템 구조 & ABAP 기초
+- SAP 데이터 타입, 테이블 구조를 이해하고 ALV Grid 출력까지 구현한 ABAP 실습 과제
+- 🔗 Notion 정리: [SAP 2주차](https://acidic-gull-92d.notion.site/SAP-2-2bd3999cacf081ae8859df0397586187?pvs=74)
+- 📂 실습 코드: [SAP 2주차 과제](https://acidic-gull-92d.notion.site/SAP-2-2d23999cacf0809f9e67f8db482607d7?pvs=74)
+---
+### Week 03. 필드, 행, 테이블 구조 파악 및 디버깅
+- 데이터가 어떤식으로 저장되는지 파악함. 디버깅을 통한 에러 확인 및 흐름 정리
+- 🔗 Notion 정리: [SAP 3주차](https://acidic-gull-92d.notion.site/SAP-3-2c43999cacf080bead98db135b91af19?pvs=74)
+- 📂 실습 코드: [SAP 3주차 과제](https://acidic-gull-92d.notion.site/SAP-3-2d23999cacf080ca95a5c02a78579373?pvs=74)
+---
+### Week 04. Function 실습 & ALV 효과 실습
+- Function을 만들어서 사용해보고 ALV에 다양한 효과를 알아봄. subtotal 실습 과제를 통해 어떤식으로 작동하는지 파악
+- 🔗 Notion 정리: [SAP 4주차](https://acidic-gull-92d.notion.site/SAP-4-2cb3999cacf0801285fffb1fc6db68fb?pvs=74)
+- 📂 실습 코드: [SAP 4주차 과제](https://acidic-gull-92d.notion.site/SAP-4-2d23999cacf080908a56ff947c561aa8?pvs=74)
