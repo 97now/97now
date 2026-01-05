@@ -1,19 +1,4 @@
-<table>
-  <tr>
-    <td width="180" align="center">
-      <img src=<img src="https://github.com/user-attachments/assets/5299bf6f-c61d-4e84-a75b-60f3938ce8a4" width="150" style="border-radius:10px;" />
- width="150" style="border-radius: 10px;" />
-    </td>
-    <td>
-      <h3>현재 (Backend / SAP ERP Developer)</h3>
-      <p>
-        꾸준함과 이해를 중시하는 개발자입니다.<br/>
-        RPA 경험을 바탕으로 ERP(SAP ABAP) 개발로 확장 중이며,<br/>
-        단순 구현보다 <b>왜 이렇게 동작하는지</b>를 이해하려 노력합니다.
-      </p>
-
-  </tr>
-</table>
+<img width="1040" height="364" alt="Image" src="https://github.com/user-attachments/assets/b263dd8b-1c15-4d24-aadf-5e0493b59640" />
 
 ## 📘 SAP ABAP 학습 기록
 
