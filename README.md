@@ -34,3 +34,8 @@
 - Function을 만들어서 사용해보고 ALV에 다양한 효과를 알아봄. subtotal 실습 과제를 통해 어떤식으로 작동하는지 파악
 - 🔗 Notion 정리: [SAP 4주차](https://acidic-gull-92d.notion.site/SAP-4-2cb3999cacf0801285fffb1fc6db68fb?pvs=74)
 - 📂 실습 코드: [SAP 4주차 과제](https://acidic-gull-92d.notion.site/SAP-4-2d23999cacf080908a56ff947c561aa8?pvs=74)
+
+### Week 05. Selction Screen 실습 & 검색 도움말 실습
+- Selction Screen으로 입력 화면을 만들어 보았음. 도움말 실습을 통해 어떻게 도움말을 구성하고 여러 도움말 종류를 알 수 있었음.
+- 🔗 Notion 정리: [SAP 5주차](https://acidic-gull-92d.notion.site/SAP-5-1813999cacf08041b4e5c500b647e933?pvs=74)
+- 📂 실습 코드: [SAP 5주차 과제](https://acidic-gull-92d.notion.site/SAP-5-2d83999cacf0806594afd268fdf532cb)
