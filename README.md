@@ -24,3 +24,8 @@
 - Selction Screen으로 입력 화면을 만들어 보았음. 도움말 실습을 통해 어떻게 도움말을 구성하고 여러 도움말 종류를 알 수 있었음.
 - 🔗 Notion 정리: [SAP 5주차](https://acidic-gull-92d.notion.site/SAP-5-1813999cacf08041b4e5c500b647e933?pvs=74)
 - 📂 실습 코드: [SAP 5주차 과제](https://acidic-gull-92d.notion.site/SAP-5-2d83999cacf0806594afd268fdf532cb)
+---
+### Week 06. SQL문 입문 & SELECT-OPTIONS 실습
+-  SQL문에 따라 조회가 어떻게 되는지 배웠고 SQL문으로 조건을 넣는 방법을 배움. SELECT-OPRTIONS로 도움말을 만들어 보았음.
+- 🔗 Notion 정리: [SAP 6주차](https://acidic-gull-92d.notion.site/SAP-6-2e03999cacf080d0a94afb7b1f0850ef?pvs=74)
+- 📂 실습 코드: [SAP 6주차 과제](https://acidic-gull-92d.notion.site/SAP-6-2e03999cacf08006997ec61ac302dcfb)
