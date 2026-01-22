@@ -29,3 +29,8 @@
 -  SQL문에 따라 조회가 어떻게 되는지 배웠고 SQL문으로 조건을 넣는 방법을 배움. SELECT-OPRTIONS로 도움말을 만들어 보았음.
 - 🔗 Notion 정리: [SAP 6주차](https://acidic-gull-92d.notion.site/SAP-6-2e03999cacf080d0a94afb7b1f0850ef?pvs=74)
 - 📂 실습 코드: [SAP 6주차 과제](https://acidic-gull-92d.notion.site/SAP-6-2e03999cacf08006997ec61ac302dcfb)
+---
+### Week 07. LISTBOX 도움말 & JOIN문 실습
+-  LISTBOX로 도움말을 만들어 보면서 내가 넣고 싶은 필드값들을 더 넣으면서 커스터 마이징 해봤음. INNER JOIN, OUTER JOIN, CROSS JOIN을 통해 데이터가 어떻게 조회되는지 확인해봤음.
+- 🔗 Notion 정리: [SAP 7주차](https://acidic-gull-92d.notion.site/SAP-7-2ed3999cacf080498dddc1c35abb4f65?pvs=74)
+- 📂 실습 코드: [SAP 7주차 과제](https://acidic-gull-92d.notion.site/SAP-7-2ed3999cacf080f1b8a1c51c5018c2e0?pvs=74)
