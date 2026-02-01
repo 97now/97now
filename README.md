@@ -34,3 +34,8 @@
 -  LISTBOX로 도움말을 만들어 보면서 내가 넣고 싶은 필드값들을 더 넣으면서 커스터 마이징 해봤음. INNER JOIN, OUTER JOIN, CROSS JOIN을 통해 데이터가 어떻게 조회되는지 확인해봤음.
 - 🔗 Notion 정리: [SAP 7주차](https://acidic-gull-92d.notion.site/SAP-7-2ed3999cacf080498dddc1c35abb4f65?pvs=74)
 - 📂 실습 코드: [SAP 7주차 과제](https://acidic-gull-92d.notion.site/SAP-7-2ed3999cacf080f1b8a1c51c5018c2e0?pvs=74)
+
+### Week 07. 중첩 JOIN문과 new open sql 구조
+-  여러 테이블을 통해 중첩 JOIN문을 실습함. new open sql 구조가 어떻게 되는지 알아보고 어떻게 사용해야 하는지 배움
+- 🔗 Notion 정리: [SAP 8주차](https://acidic-gull-92d.notion.site/SAP-8-2f13999cacf080a4a7f2f71b82e4e1ab?pvs=74)
+- 📂 실습 코드: [SAP 8주차 과제](https://acidic-gull-92d.notion.site/SAP-8-2f13999cacf08053997eda31b316ed4f?pvs=74)
